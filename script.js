@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const line = document.getElementById("line");
 let angle = 0;
-setInterval(()=>{
+setInterval(() => {
 	angle += 2;
-	line.style.tranform = `rotate(${angle}deg)`;
-} 20);
+    line.style.transform = `rotate(${angle}deg)`;
+}, 20);
