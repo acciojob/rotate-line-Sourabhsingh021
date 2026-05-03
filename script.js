@@ -3,6 +3,6 @@ const line = document.getElementById("line");
 let angle = 0;
 
 setInterval(()=>{
-	angle++;
+	angle += 2;
 	line.style.tranform = `rotate({angle}deg)`;
 } 20);
